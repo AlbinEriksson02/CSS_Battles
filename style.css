@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@200&display=swap');
+
+:root{
+    --main:  #523817;
+    --secondary: #c0aa6e;
+    -textMain:
+}
+
+body{
+    margin:0;
+    background-color:   var(--main);
+}
+
+header {
+    display: grid;
+    place-content:  center;
+    width:  100%;
+    height: 10vh;
+    background-color: var(--secondary);
+}
+.headerText{
+    color: #201401;
+    font-size: 4vh;
+    font-family: 'M PLUS 2', sans-serif;
+    font-display:
+;
+}
