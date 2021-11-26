@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@200&display=swap');
 
 :root{
-    --main:  #523817;
-    --secondary: #c0aa6e;
-    -textMain:
+    --main: #0c6600 ;
+    --secondary: rgb(197, 69, 31);
+    --textMain: #ffffff;
+    font-family: 'M PLUS 2', sans-serif;
 }
 
 body{
     margin:0;
     background-color:   var(--main);
 }
-
+main{
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
 header {
     display: grid;
     place-content:  center;
@@ -19,9 +27,57 @@ header {
     background-color: var(--secondary);
 }
 .headerText{
-    color: #201401;
+    color: var(--textMain);
     font-size: 4vh;
-    font-family: 'M PLUS 2', sans-serif;
-    font-display:
-;
+
+}
+.container{
+    width: 90%;
+    height: 25vh;
+}
+.battleSets {
+
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+    width: 100%;
+    margin-block: 1vh;
+
+}
+.battleText{
+    
+    height: 4vh;
+    width: 101%;
+    font-size: 2vh;
+    color: var(--textMain);
+    text-align: center;
+    padding-bottom: 1vh;
+    border-bottom: 0.4vh solid white;
+    
+
+}
+.battle {
+    max-width: 110%;
+    width: 100%;
+    height:18.75vh;
+    background-color: var(--secondary);
+
+
+}
+.battleCont{
+
+
+    max-width: 18%;
+    width:  100%;
+    height: 24vh;
+    background-color: var(--secondary);
+    border-radius: 5%;
+    border:0.4vh solid white;
+
+}
+
+img{
+    height: 18.75vh;
+    width: 16.12vw;
+    border-radius: 0 0 5% 5%;
 }
