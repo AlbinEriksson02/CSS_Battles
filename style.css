@@ -47,7 +47,7 @@ header {
 .battleText{
     
     height: 4vh;
-    width: 101%;
+    width: 100%;
     font-size: 2vh;
     color: var(--textMain);
     text-align: center;
@@ -69,16 +69,17 @@ header {
 
     max-width: 18%;
     width:  100%;
-    height: 24vh;
+    height: 24.vh;
     background-color: var(--secondary);
     border-radius: 5%;
     border:0.4vh solid white;
-
+    overflow-y: scroll;
+ 
 }
 
 img{
-    height: 18.75vh;
-    width: 16.12vw;
+    height: 18.9vh;
+    width: 15.4vw;
     border-radius: 0 0 5% 5%;
 }
 
@@ -86,8 +87,22 @@ img:before {
     content: ' ';
     display: block;
     position: absolute;
-    height: 18.75vh;
-    width: 16.12vw;
+    height: 17vh;
+    width: 15.12vw;
     border-radius: 0 0 5% 5%;
     background-image: url(assets/soon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+xmp{
+
+    max-width: 20vw;
+
+    
+    font-weight: 200;
+    color: var(--textMain);
+    font-size: 1.1vh;
 }
