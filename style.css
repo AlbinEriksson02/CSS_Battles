@@ -132,6 +132,7 @@ xmp{
     padding: 1em;
     border-radius: 25px;
     padding-right: 2em;
+    outline: rgba(0, 0, 0, 0.5) solid 1000vh;
 }
 
 .battle:hover xmp{
