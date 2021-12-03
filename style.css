@@ -104,7 +104,6 @@ img:before {
 @keyframes codeView {
     to{
     opacity:0 ;
-    transform: rotateY(180deg);
     
     
     }
@@ -138,12 +137,13 @@ xmp{
 .battle:hover xmp{
     color: var(--textMain);
     background-color: var(--secondary);
-    animation: code 1000ms ease-out;
+    animation: code 2000ms ease-out;
     animation-fill-mode: forwards;
 }
 
-.battle:hover div{
-color: rgba(0, 0, 0, 0.432);
+.battle:hover img{
+    animation: codeView 100000ms ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 ::-webkit-scrollbar{
