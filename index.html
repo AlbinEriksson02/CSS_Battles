@@ -340,7 +340,46 @@ margin-top:-80
 
 <div class="battleCont">
 <div class ="battleText">Battle 9</div>
-<div class="battle battle1"><img src="assets/9.png"> <xmp></xmp> </div>
+<div class="battle battle1"><img src="assets/9.png"> <xmp><div class="side"></div>
+<div class="mid_big"></div>
+<div class="mid"></div>
+<div class="circ"></div>
+
+<style>
+body{
+background:#222730;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+div {
+width: 150px;
+height: 150px;
+background: #4CAAB3;
+position:absolute;
+max-width:1000px;
+}
+.circ{
+border-radius:50%;
+background:#393E46;
+height:50px;
+width:50px;
+}
+.mid{
+transform:rotate(45deg)
+}
+.mid_big{
+width: 250px;
+height: 250px;
+background: #222730;
+transform:rotate(45deg)
+}
+.side{
+width:1000px;
+}
+</style>
+
+</xmp> </div>
 </div>
 
 <div class="battleCont">
