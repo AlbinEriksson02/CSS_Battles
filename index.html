@@ -436,7 +436,47 @@ margin:-100 50 0 50;
 
 <div class="battleCont">
 <div class ="battleText">Battle 11</div>
-<div class="battle battle1 "><img src="assets/11.png"> <xmp></xmp> </div>
+<div class="battle battle1 "><img src="assets/11.png"> <xmp><div class="wiggle left"></div>
+<div class="wiggle right"></div>
+<div class="main"></div>
+<style>
+body{
+background:#191210;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+div {
+position:absolute;
+width: 50px;
+height: 50px;
+background: #ECA03D;;
+border-radius:50%
+}
+.main{
+background:#84271C;
+border:25px solid #191210;
+outline: 20px solid #ECA03D;
+}
+.wiggle{
+position:sticky;
+background:#191210;
+margin:50;
+min-width:60px;
+min-height:60px;
+border-right:20px solid #ECA03D;
+border-left:20px solid #191210;
+border-top:20px solid #ECA03D;
+border-bottom:20px solid #191210;
+}
+.left{
+transform:rotate(135deg)
+}
+.right{
+transform:rotate(-45deg)
+}
+</style>
+</xmp> </div>
 </div>
 
 <div class="battleCont">
