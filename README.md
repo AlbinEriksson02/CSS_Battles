@@ -1,4 +1,5 @@
 # CSS_Battles
-All the Css battles I have complteted
+
+All the CSS battles I have completed
 
 [Website](https://albineriksson02.github.io/CSS_Battles/)
